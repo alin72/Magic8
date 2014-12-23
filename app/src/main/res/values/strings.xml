@@ -5,4 +5,54 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="instructions">Tap or shake your device</string>
+
+    <string-array name="answer_array">
+        <item>Signs point to yes.</item>
+        <item>Yes.</item>
+        <item>Reply hazy, try again.</item>
+        <item>Without a doubt.</item>
+        <item>My sources say no.</item>
+        <item>You may rely on it.</item>
+        <item>As I see it, yes.</item>
+        <item>Concentrate and ask again.</item>
+        <item>Outlook not so good.</item>
+        <item>It is decidedly so.</item>
+        <item>Better not tell you now.</item>
+        <item>Very doubtful.</item>
+        <item>Yes - definitely.</item>
+        <item>It is certain.</item>
+        <item>Cannot predict now.</item>
+        <item>Most likely.</item>
+        <item>Ask again later.</item>
+        <item>My reply is no.</item>
+        <item>Don\'t count on it.</item>
+        <item>Outlook good.</item>
+        <item>Yes, in due time.</item>
+        <item>Outlook so so.</item>
+        <item>Are you kidding?</item>
+        <item>Don\'t bet on it.</item>
+
+    </string-array>
+
 </resources>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

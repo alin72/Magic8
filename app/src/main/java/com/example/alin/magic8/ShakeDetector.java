@@ -1,8 +1,8 @@
 package com.example.alin.magic8;
 
-        import android.hardware.Sensor;
-        import android.hardware.SensorEvent;
-        import android.hardware.SensorEventListener;
+import android.hardware.Sensor;
+import android.hardware.SensorEvent;
+import android.hardware.SensorEventListener;
 
 public class ShakeDetector implements SensorEventListener {
 
@@ -71,6 +71,7 @@ public class ShakeDetector implements SensorEventListener {
                 // Check if enough movements have been made to qualify as a shake
                 if (moveCount > MIN_MOVEMENTS) {
                     // It's a shake! Notify the listener.
+
                     mShakeListener.onShake();
 
                     // Reset for the next one!
@@ -135,12 +136,4 @@ public class ShakeDetector implements SensorEventListener {
         moveCount = 0;
     }
 
-    /*
-     * Definition for OnShakeListener definition. I would normally put this
-     * into it's own .java file, but I included it here for quick reference
-     * and to make it easier to include this file in our project.
-     */
-    public interface OnShakeListener {
-        public void onShake();
-    }
 }
